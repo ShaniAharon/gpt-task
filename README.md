@@ -14,7 +14,7 @@ To run this project, you'll need:
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/username/my-flask-openai-api-app.git
+   git clone https://github.com/ShaniAharon/gpt-task
 
 2. Change into the project directory:
    cd gpt-task
