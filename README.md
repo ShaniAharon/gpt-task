@@ -61,17 +61,12 @@ Send a message to the OpenAI API. and returns the generated response.
 
 hi you can test the post api by uncomment the flow code in the gpt_service.py file
 
-# # Test the function
-
-# try:
-
-# result = get_gpt_response("What is the capital of France?")
-
-# print("GPT response:", result)
-
-# except Exception as e:
-
-# print(e)
+Test the function
+try:
+result = get_gpt_response("What is the capital of France?")
+print("GPT response:", result)
+except Exception as e:
+print(e)
 
 #### Request
 
