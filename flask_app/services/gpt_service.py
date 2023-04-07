@@ -6,7 +6,6 @@ import json
 load_dotenv()#load the env vars
 
 def get_gpt_response(message):
-    print('in gpt' + message)
     api_key = os.getenv("OPENAI_API_KEY")
     if api_key is None:
         raise Exception("OPENAI_API_KEY environment variable not found")
