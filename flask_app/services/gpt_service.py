@@ -1,6 +1,4 @@
-#import subprocess
 import os
-# import openai
 from dotenv import load_dotenv
 import requests
 import json
