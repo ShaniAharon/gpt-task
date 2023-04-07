@@ -1,6 +1,6 @@
 # My Flask OpenAI API App
 
-This is a simple Python Flask application that demonstrates a backend with two routes, one GET and one POST. The POST route sends a message to the OpenAI API, and the GET route shows the responses.
+This is a simple Python Flask application that demonstrates a backend with two routes, one GET and one POST. The POST route sends a message to the OpenAI API, and the GET route shows some text.
 
 ## Getting Started
 
@@ -10,7 +10,6 @@ To run this project, you'll need:
 
 - Python 3.7 or higher
 - Flask
-- OpenAI Python library
 
 ### Installation
 
@@ -18,7 +17,7 @@ To run this project, you'll need:
    git clone https://github.com/username/my-flask-openai-api-app.git
 
 2. Change into the project directory:
-   cd my-flask-openai-api-app
+   cd gpt-task
 
 3. Set up a virtual environment:
    python3 -m venv venv
@@ -50,13 +49,13 @@ The application will be accessible at `http://127.0.0.1:5000`.
 
 ## API Endpoints
 
-### GET `/responses`
+### GET `/`
 
-Retrieve the list of responses from the OpenAI API.
+Retrieve A simple welcome message, e.g., &quot;Welcome to ChatGPT API Wrapper!&quot;
 
-### POST `/send-message`
+### POST `/chat`
 
-Send a message to the OpenAI API.
+Send a message to the OpenAI API. and returns the generated response.
 
 #### Request
 
@@ -67,7 +66,8 @@ Send a message to the OpenAI API.
 
 ```response
 {
-  "response": "OpenAI API response here"
+    "received_message_from_gpt": "response",
+    "status": "success"
 }
 
 
