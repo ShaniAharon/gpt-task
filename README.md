@@ -1,6 +1,6 @@
 # My Flask OpenAI API App
 
-This is a simple Python Flask application that demonstrates a backend with two routes, one GET and one POST. The POST route sends a message to the OpenAI API, and the GET route shows some text.
+This is a Python Flask application that demonstrates a backend with two routes, one GET and one POST. The POST route sends a message to the OpenAI API, and the GET route shows some text.
 
 ## Getting Started
 
