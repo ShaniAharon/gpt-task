@@ -1,4 +1,4 @@
-# My Flask OpenAI API App
+# ChatGPT API Wrapper App
 
 This is a Python Flask application that demonstrates a backend with two routes, one GET and one POST. The POST route sends a message to the OpenAI API, and the GET route shows some text.
 
