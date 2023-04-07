@@ -59,14 +59,7 @@ Send a message to the OpenAI API. and returns the generated response.
 
 ### Test
 
-hi you can test the post api by uncomment the flow code in the gpt_service.py file
-
-Test the function
-try:
-result = get_gpt_response("What is the capital of France?")
-print("GPT response:", result)
-except Exception as e:
-print(e)
+hi you can test the post api by uncomment the lines 35-40 in the gpt_service.py file
 
 #### Request
 
