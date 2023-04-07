@@ -59,7 +59,8 @@ Send a message to the OpenAI API. and returns the generated response.
 
 ### Test
 
-hi you can test the post api by uncomment the lines 35-40 in the gpt_service.py file
+test the post api by uncomment the lines 35-40 in the gpt_service.py file
+or use postman etc..
 
 #### Request
 
